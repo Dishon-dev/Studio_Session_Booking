@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+.back_arrow .fa {
+  font-size: 1.2rem;
+}
+
 .required {
   color: #ff0000;
 }

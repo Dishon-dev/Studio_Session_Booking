@@ -80,6 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <body>
     <h2>Sign In</h2>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
+    <a class="back_arrow" href="index.php"><i class="fa fa-arrow-left"></i></a>
     <?php 
       if(isset($_SESSION['status'])) {
     ?>

@@ -143,6 +143,7 @@ if(mysqli_num_rows($userResult) > 0){
     <h2 class="sign_up_title">Sign Up</h2>
     <br>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post" enctype="multipart/form-data" class="sign_up_form">
+    <a class="back_arrow" href="index.php"><i class="fa fa-arrow-left"></i></a>
     <?php 
       if(isset($_SESSION['status'])) {
     ?>

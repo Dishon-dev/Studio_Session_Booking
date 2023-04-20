@@ -73,7 +73,7 @@
         $mail->SMTPSecure = 'tls'; //ssl
         $mail->Port = 587; //465 --> ssl
         $mail->Username = 'boncestudios@gmail.com';
-        $mail->Password = 'fbglkjbwatgxigqi'; //app password -> security -> generate app password
+        $mail->Password = ''; //app password -> security -> generate app password
 
         $mail->setFrom($email); //email from input
         $mail->addAddress('boncestudios@gmail.com', 'Bounce Studio');
@@ -95,7 +95,7 @@
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587; 
         $mail->Username = 'boncestudios@gmail.com';
-        $mail->Password = 'fbglkjbwatgxigqi'; 
+        $mail->Password = ''; 
 
         $mail->setFrom('boncestudios@gmail.com', 'Bounce Studio'); 
         $mail->addAddress($email);

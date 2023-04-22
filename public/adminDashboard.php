@@ -294,7 +294,7 @@ if(isset($_SESSION['username'])){
                 }
                 else{
                 $count = 0;
-                //$numberOfRows = 2;
+                /*$numberOfRows = 2;
                 $totalPages = ceil($row/$numberOfRows) ;
                 //echo $totalPages;
 
@@ -309,7 +309,7 @@ if(isset($_SESSION['username'])){
                 //($btn-1)*$numberOfRows
                 $startingLimit = ($page-1)*$numberOfRows;
                 $query = "SELECT * FROM `users` LIMIT ".$startingLimit.','.$numberOfRows;
-                $results = mysqli_query($conn,$query);
+                $results = mysqli_query($conn,$query);*/
 
                 while($row = mysqli_fetch_assoc($results)){
                   $emailArray[$count] = $row['email'];
